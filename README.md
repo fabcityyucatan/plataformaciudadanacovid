@@ -1,9 +1,12 @@
 # Plataforma Ciudadana COVID 👨‍💻 📍
 *Esta herramienta digital fue creada emergentemente como apoyo de parte de la asociación civil FabCity Yucatán en la región de Yucatán. Puedes conocer más sobre la iniciativa FabCity Yucatán A.C. en [fabcityyucatan.org](http://fabcityyucatan.org/)*
 
+![Image of mapa](https://github.com/fabcityyucatan/plataformaciudadanacovid/blob/master/img/fondo.png)
+
+
+
 
 [Plataforma Ciudadana COVID](https://www.plataformaciudadanacovid.com/)
-
 
 Bienvenidos al repositorio de la plataforma ciudadana que ha sido creada con la intención de reunir en un mismo sitio las iniciativas que requieren el apoyo de los ciudadanos a través de donativos en efectivo, especie u otras acciones. 
 
