@@ -28,3 +28,4 @@ Creado por
 
 ## Licencia 
 Esta obra está bajo una Licencian [Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+![Image of license](https://github.com/fabcityyucatan/plataformaciudadanacovid/blob/master/img/88x31.png)
