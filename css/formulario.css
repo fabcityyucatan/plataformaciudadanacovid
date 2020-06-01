@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: oswal;
+  }
+  @font-face{
+    font-family: oswal;
+    src: url(../letras/static/Oswald-Light.ttf);
+  }
+  #top{
+      width: 100%;
+      height: 110px;
+      margin: 0;
+float: left;
+      background: white;
+ position: fixed;
+ z-index: 10;
+ -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+ -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+ box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+  }
+  #textoIZ{
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.8vw;
+    font-family: oswal;
+}
+#TextRosa{
+    color: #EF5FA7;
+    font-weight: bold;
+}
+#textoIZ p{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+    font-family: oswal;
+    float: left;
+}
+#textoDe{
+    float: right;
+    width: 40%;
+    height: auto;
+ 
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.7vw;
+    font-family: oswal;
+}
+#textoDe b{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-family: oswal;
+
+}
+
+  #Contenido{
+
+    width: 100%;
+    height: auto;
+
+margin-top: 110px;
+float: left;
+  }
+  #Contenido form{
+ 
+width: 100%;
+height: auto;
+  }
+  #forma{
+    background: #EEEEEE;
+      width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 30px;
+margin-bottom: 30px;
+      height: 80%;
+      text-align:center;
+     
+      border-radius: 8px;
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    
+  }
+
+  #derecha{
+      width: 357px;
+
+      transform: translate(16%, 0%);
+  background: #EEEEEE;
+float: left;
+border: .5px solid #00A2FF;
+
+padding-bottom: 10PX;
+    height: auto;
+
+    }
+    #derecha2{
+        width: 714px;
+        transform: translate(8.1%, 0%);
+    background: #EEEEEE;
+  float: left;
+  border: .5px solid #00A2FF;
+  
+  
+      height: auto;
+  
+      }
+      #derecha3{
+        width: 357px;
+        transform: translate(16%, 0%);
+    background: #EEEEEE;
+  float: left;
+  border: .5px solid #00A2FF;
+  
+  padding-bottom: 10PX;
+      height: auto;
+  
+      }
+      #derecha4{
+        width: 357px;
+        transform: translate(16%, 0%);
+   
+  float: left;
+
+  padding-top: 30px;
+  padding-bottom: 10PX;
+      height: auto;
+  
+      }
+      #btn_grabar{
+        background: #00A2FF;
+        color: white;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-style: bold;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+      }
+    #TIT{
+        background: #00A2FF;
+        color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+    }
+   
+    #derecha input{
+        
+        
+        border-radius: 8px;
+        border: 1px solid #EF5FA7;
+        padding: 5px;
+        
+    }
+    #derecha textarea{
+        width: 327px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 150px;
+        border-radius: 8px;
+        border: 1px solid #EF5FA7;
+        padding: 5px;
+    }
+    #derecha2 input{
+        
+        
+        border-radius: 8px;
+        border: 1px solid #EF5FA7;
+        padding: 5px;
+        
+    }
+    #derecha2 textarea{
+        width: 327px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 150px;
+        border-radius: 8px;
+        border: 1px solid #EF5FA7;
+        padding: 5px;
+    }
+    #derecha p{
+        margin:0;
+        
+       padding: 0;
+    }
+    #derecha b{
+        margin-top: 20px;
+        margin:0;
+        width: 337px;
+       padding: 0;
+    }
+#map{
+    
+    width: 100%;
+    height: 360px;
+
+
+
+}
+
+#check{
+
+  width: 300px;
+
+  float: left;
+  }
+  .containers {
+    display: block;
+    position: relative;
+   
+    margin-bottom: 12px;
+    width: auto;
+    cursor: pointer;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: oswal;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .containers input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmarks {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .containers:hover input ~ .checkmarks {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .containers input:checked ~ .checkmarks {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmarks:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .containers input:checked ~ .checkmarks:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .containers .checkmarks:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+@media screen and (min-width:200px) and (max-width:800px) {
+  #textoIZ{
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3vw;
+    font-family: oswal;
+}
+
+#textoDe{
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3vw;
+    font-family: oswal;
+}  
+  
+  
+  #derecha{
+        width: 357px;
+  
+        border: .5px solid #00A2FF;
+        transform: translate(0%, 0%);
+  float: left;
+     
+  
+  
+      
+  
+      } 
+      #derecha2{
+        width: 357px;
+        transform: translate(0%, 0%);
+    
+  float: left;
+  border: .5px solid #00A2FF;
+  
+  padding-bottom: 10PX;
+      height: auto;
+  
+      }
+      #derecha3{
+        width: 357px;
+        transform: translate(0%, 0%);
+    background: #EEEEEE;
+  float: left;
+  border: .5px solid #00A2FF;
+  
+  padding-bottom: 10PX;
+      height: auto;
+  
+      }
+}
+
+@media screen and (min-width:1366px) and (max-width:1920px) {
+    #forma{
+        background: #EEEEEE;
+          width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+          height: 80%;
+          text-align:center;
+         
+          border-radius: 8px;
+          -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        
+      }
+}

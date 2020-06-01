@@ -1,0 +1,94 @@
+body{
+  
+    background: url(../img/fondo.png)  no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+      overflow-x:hidden;
+      bottom: 0;
+      margin: 0;
+      padding: 0;
+    
+    }
+
+#contenedor{
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.5);
+width: 300px;
+min-height: 350px;
+transform: translate(-20%, 40%);
+-webkit-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.75);
+float: right;
+justify-content: center;
+   text-align: center;
+   z-index: 10;
+}
+#contenedor form{
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   text-align: center;
+}
+#contenedor form h3{
+color:black;
+  margin-bottom: 28px;
+  font-family: 'Oxygen', sans-serif;
+    }
+#contenedor form img{
+width: 150px;
+height: auto;
+margin-bottom: 10px;
+}
+#contenedor form input{
+margin-top: 8px;
+margin-bottom: 8px;
+border-radius: 5px;
+padding-left: 8px;
+padding-right: 8px;
+padding-top: 5px;
+padding-bottom: 5px;
+border: 0;
+font-family: 'Oxygen', sans-serif;
+  }
+  #contenedor form #btnLogin{
+    border: 0;
+    padding: 10px;
+    background: #002E5D;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+
+  }
+  #contenedor form #btnLogin:hover{
+    border: 0;
+    padding: 10px;
+    background: #232BEB;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+
+  }
+@media screen and (min-height:200px) and (max-height:500px) {
+  #contenedor{
+
+transform: translate(-20%, 40%);
+margin-bottom: 20%;
+}
+
+
+}
+#contenedor  p{
+ text-decoration: none;
+color: black;
+font-family: 'Oxygen', sans-serif;
+cursor: pointer;
+}
+#contenedor.actives{
+ 
+  display: none;
+  
+  }
+
+/*-------------------------------------------------------------------------------*/

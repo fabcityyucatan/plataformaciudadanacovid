@@ -1,0 +1,313 @@
+*{
+    margin:0;
+    padding:0;
+  
+  }
+  @font-face{
+    font-family: oswal;
+    src: url(../letras/static/Oswald-Light.ttf);
+  }
+  @font-face{
+    font-family: themillion2;
+    src: url(../letras/Mont-HeavyDEMO.otf);
+  }
+#top{
+    width: 100%;
+    height: 19%;
+    background: white;
+    z-index: 7;
+    position: fixed;
+
+}
+#barraSup{
+    width: 100%;
+    height: 69%;
+  
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-family: oswal;
+}
+#textoIZ{
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.8vw;
+    font-family: oswal;
+}
+#TextRosa{
+    color: #EF5FA7;
+    font-weight: bold;
+}
+#textoIZ p{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+    font-family: oswal;
+    float: left;
+}
+#textoDe{
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.7vw;
+    font-family: oswal;
+}
+#textoDe b{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-family: oswal;
+
+}
+#barraSupSec{
+    width: 100%;
+    height: auto;
+   
+  
+}
+#RosaD{
+    background: #EF5FA7;
+    height: 100%;
+    width: 0%;
+    float: left;
+    left: 0%;
+    
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+transition: all 500ms linear;
+}
+#RosaD.active{
+    left: 0%;
+    width: 30%;
+
+  }
+#btnCerrar{
+    float: right;
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    cursor: pointer;
+    font-family: oswal;
+    visibility: hidden;
+}
+#btnCerrar.ocul{
+    visibility: visible;
+}
+
+#azulM{
+    background: #00A2FF;
+    height: 100%;
+    width: 100%;
+    transition: all 500ms linear;
+    float: left;   
+}
+#azulM.options{
+    width: 70%;
+}
+#verIn{
+    float: left;
+    cursor: pointer;
+    background: #EF5FA7;
+    visibility: visible;
+    
+   
+}
+#verIn.ver{
+    visibility: hidden;
+  
+}
+#verIn p{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-family: oswal;
+   
+}
+
+
+
+#Contenido{
+    width: 30%;
+    height: 81%;
+    left: -30%;
+    
+ top: 19%;
+    float: left;
+ z-index: 7;
+    background: white;
+   position: absolute;
+   transition: all 500ms linear;
+   overflow-y: scroll;
+
+}
+#Contenido.actives{
+    left: 0%;
+}
+#map {
+    height:100%;
+    width: 100%;
+
+   left: 0%;
+    position: absolute;
+
+      transition: all 500ms linear;
+    }
+    #map.nmap{
+        width: 70%;
+
+        left: 30%;
+      }
+      #reglas{
+        max-width: 150px;
+        height: auto;
+        background: white;
+        color: black;
+        font-family: oswal;
+        z-index: 7;
+       float: right;
+       visibility: visible;
+       position: relative;
+        margin-top: 20%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        text-align: justify;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      #reglas img{
+        width: 100px;
+        height: 80px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 10px;
+        border-top-left-radius: 8px;
+ 
+      }
+      #footer{
+          width: 100%;
+          height: 50px;
+          background: white;
+          color: black;
+          font-family: oswal;
+          position: fixed;
+          bottom: 0;
+          z-index: 1;
+      }
+      .copyright{
+          margin-left: 20px;
+      }
+      
+      .copyright img{
+          margin-top: 6px;
+      }
+    
+      @media screen and (min-width:200px) and (max-width:800px) {
+        #reglas{
+            margin-top: 45%;
+            max-width: 90px;
+        height: auto;
+        background: white;
+        color: black;
+        font-family: oswal;
+        z-index: 7;
+       float: right;
+       visibility: visible;
+       position: relative;
+     
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        text-align: justify;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        font-size: .6em;
+        }
+        #reglas img{
+            width: 80px;
+            height: 80px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 10px;
+            border-top-left-radius: 8px;
+     
+          }
+        #textoIZ{
+            float: left;
+            width: 30%;
+            height: auto;
+            margin-left: 40px;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 3vw;
+            font-family: oswal;
+        }
+
+        #textoDe{
+            float: right;
+            width: 30%;
+            height: auto;
+            margin-left: 40px;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 3vw;
+            font-family: oswal;
+        }
+
+        #Contenido{
+            width: 100%;
+            height: 81%;
+            left: -100%;
+            
+         top: 19%;
+            float: left;
+         
+            background: white;
+           position: absolute;
+           transition: all 500ms linear;
+           overflow-y: scroll;
+           z-index: 10;
+        
+        }
+        #Contenido.actives{
+            left: 0%;
+        }
+
+
+
+        #map {
+            height:100%;
+            width: 100%;
+        
+           left: 0%;
+            position: absolute;
+        
+              transition: all 500ms linear;
+            }
+            #map.nmap{
+                width: 100%;
+        
+                left: 0%;
+              }
+
+
+
+      }
+    

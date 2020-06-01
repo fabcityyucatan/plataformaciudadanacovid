@@ -1,0 +1,36 @@
+@font-face{
+    font-family: oswal;
+    src: url(../letras/static/Oswald-Light.ttf);
+  }
+
+
+  *{
+    margin:0;
+    padding:0;
+    font-family: oswal;
+    text-align: center;
+  }
+#msj{
+    text-align: center;
+    text-align: center;
+background: #EEEEEE;
+    width:400px;
+    height: 250px;
+border-radius: 8px;
+margin-top: 15%;
+margin-bottom: 20%;
+margin-right: auto;
+margin-left: auto;
+
+}
+#boton{
+    background: #00A2FF;
+    color: white;
+    width: 62px;
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,62 @@
+@font-face{
+    font-family: oswal;
+    src: url(../letras/static/Oswald-Light.ttf);
+  }
+#filtradoButtom{
+    width: auto;
+    -webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    height: 60px;
+    right: 0;
+    font-family: oswal;
+    background: #EF5FA7;
+    color: white;
+    border-top-left-radius: 8px;
+
+    bottom: 0;
+    position: fixed;
+    z-index: 7;
+    transition: all 500ms linear;
+}
+#filtradoButtom.filtro{
+    
+}
+#filtradoButtom form{
+    margin-top: 10px;
+margin-left: 8%;
+   width: 300px;
+    margin-bottom: 10px;
+}
+#filtradoButtom form p{
+
+margin-right: 20px;
+    color: white;
+  
+    float: left;
+   
+}
+#filtradoButtom form button{
+        border: none;
+        border-radius: 5px;
+        background: white;
+        color: black;
+        padding: 6px;
+        margin-left: 20px;
+        float: left;
+        font-family: oswal;
+}
+#filtradoButtom form select{
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    float: left;
+    padding: 6px;
+    font-family: oswal;
+}
+@media screen and (min-width:200px) and (max-width:800px) {
+    #filtradoButtom{
+        bottom: 50px;
+    }
+}
