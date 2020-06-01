@@ -1,4 +1,6 @@
-# plataformaciudadanacovid
+# Plataforma Ciudadana COVID
+
+
 Bienvenidos al repositorio de la plataforma ciudadana que ha sido creada con la intención de reunir en un mismo sitio las iniciativas que requieren el apoyo de los ciudadanos a través de donativos en efectivo, especie u otras acciones. Funcionamos como canal de difusión y visualización sin ser intermediarios de ninguna iniciativa. En esta plataforma puedes participar de tres formas:
 
 2. Accede a la opción mapeo de iniciativas y registra la tuya
