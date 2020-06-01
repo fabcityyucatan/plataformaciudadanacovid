@@ -21,7 +21,7 @@ Con la opción añadir iniciativa se te desplegará un modulo para proporcionar 
 En esta sección estamos conjuntando diferentes herramientas, archivos de diseño y plataformas tanto locales como de otras Ciudades/Países que pueden ser útiles.
 
 
-## Usos de la plataforma 
+## Autor
 Creado por 
 [FabCity Yucatán A.C](http://fabcityyucatan.org/)
 
