@@ -18,6 +18,9 @@ Bienvenidos al repositorio de la plataforma ciudadana que ha sido creada con la 
 ## Usos de la plataforma 
 En esta plataforma puedes participar de tres formas:
 
+1. Accede a la opción mapeo de iniciativas y conoce las iniciativas existentes.
+Podrás visualizar sus descripciones y datos de contacto para sumarte a través de donativos. También puedes compartir en tus redes y a tus amigos para hacer mayor la difusión.
+
 2. Accede a la opción mapeo de iniciativas y registra la tuya
 Con la opción añadir iniciativa se te desplegará un modulo para proporcionar información que será usada para la plataforma. Lo validaremos y tu información estará disponible.
 
